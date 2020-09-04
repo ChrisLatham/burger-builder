@@ -1,0 +1,52 @@
+.Toolbar {
+  height: 56px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #234f70;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 90;
+  margin: 0 0 -4px 0;
+}
+.Toolbar nav {
+  height: 100%;
+}
+.Toolbar > div {
+  flex: 1;
+}
+.Toolbar > ul {
+  flex: 1;
+}
+
+.Toolbar:first-child {
+  flex: 1;
+  margin-right: auto;
+}
+.Toolbar:last-child {
+  flex: 1;
+  margin-left: auto;
+}
+.HamburgerIcon {
+  width: 25px;
+}
+.HamburgerIcon div {
+  width: 90%;
+  height: 3px;
+  background-color: #fff;
+  margin: 3px;
+  border-radius: 2px;
+}
+.HamburgerIcon:hover div {
+  background-color: #ffbc6a;
+}
+
+@media (max-width: 499px) {
+  .DesktopOnly {
+    display: none;
+  }
+}

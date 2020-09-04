@@ -1,0 +1,24 @@
+.Logo {
+  background-color: transparent;
+  padding: 8px;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Logo img {
+  height: 100%;
+  display: inline-block;
+}
+.LogoText {
+  color: #ffbc6a;
+  margin-left: 10px;
+  font-size: 1.4em;
+}
+.Thin {
+  font-weight: 300;
+}
+.Bold {
+  font-weight: 600;
+  font-style: italic;
+}

@@ -18,16 +18,16 @@ class Ingredient extends Component {
           </div>
         );
         break;
-      case "Meat":
+      case "meat":
         ingredient = <div className={styles.Meat}>&nbsp;</div>;
         break;
-      case "Cheese":
+      case "cheese":
         ingredient = <div className={styles.Cheese}>&nbsp;</div>;
         break;
-      case "Salad":
+      case "salad":
         ingredient = <div className={styles.Salad}>&nbsp;</div>;
         break;
-      case "Bacon":
+      case "bacon":
         ingredient = <div className={styles.Bacon}>&nbsp;</div>;
         break;
       default:
